@@ -16,6 +16,3 @@ btnColorInicial[0].addEventListener("click", () =>{
   caja.style.backgroundColor = colorInicial
   btnColorInicial[0].classList.add("btn--colorinicial--oculto")
 })
-
-
-

@@ -10,6 +10,7 @@ btn[0].addEventListener("click", () =>{
   
   caja.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`
   btnColorInicial[0].classList.remove("btn--colorinicial--oculto")
+  console.log("Color cambiado correctamente")
 })
 
 btnColorInicial[0].addEventListener("click", () =>{

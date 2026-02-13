@@ -48,8 +48,14 @@
   box-shadow: 2px 4px 9px -5px rgba(0, 0, 0, 0.34);
 }
 
-.btn{
-  display: block;
+.pos{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30vmax;
+}
+
+.btn, .btn--colorinicial{
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
@@ -60,12 +66,16 @@
   font-size: 16px;
 }
 
-.btn:hover{
+.btn--colorinicial--oculto{
+  display: none;
+}
+
+.btn:hover, .btn--colorinicial:hover{
   background-color:rgb(18, 22, 75);
   cursor:pointer;
   transition: all 0.400s;
 }
 
-.btn:active{
-  font-size: 15.5px;
+.btn:active, .btn--colorinical:active{
+  transform: scale(0.95);
 }
